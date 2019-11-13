@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<!--
+Komal Kapoor
+Student ID : 991539309
+SYST10199 - Web Programming
+-->
+<html>
+    <head>
+        <title>Assignment 2 for Komal Kapoor</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div>
+            <h1>
+                Assignment 2<br>
+                Komal Kapoor<br>
+                Instructor: Maninder Kaur Tatla
+            </h1>
+            <hr>
+            <script src ="scripts/Javas.js"></script>
+            <link rel="stylesheet" type ="text/css" href="css.css">
+        </div>
+
+        <form>
+            <div id = "div2">
+                <label>Enter a number: <input type="text" id = "num_input" autofocus></label>
+            </div>
+            
+            <div id = "div2">
+                <input type = "button" id ="button" value = "Celsius to Farhenheit" onclick="cel_to_farh(num_input.value)">
+                <input type = "button" id ="button" value = "Fahrenheit to Celsius" onclick="farh_to_cel(num_input.value)">
+                <input type = "button" id ="button" value = "Feet to Metres" onclick="feet_to_mtr(num_input.value)">
+                <input type = "button" id ="button" value = "Metres to Feet" onclick="mtr_to_feet(num_input.value)">
+                <input type = "button" id ="button" value = "Inches to Centimeter" onclick="inch_to_cm(num_input.value)">
+                <input type = "button" id ="button" value = "Centimeter to Inches" onclick="cm_to_inch(num_input.value)">
+                <input type = "button" id ="button" value = "Pounds to Kilogram" onclick="pound_to_kg(num_input.value)">
+                <input type = "button" id ="button" value = "Kilogram to Pounds" onclick="kg_to_pound(num_input.value)">
+            </div>
+            
+            <p id ="output"></p>
+            <input type = "button" value = "Clear" id="clear" onclick="Clear()">
+            
+        </form>
+  </body>
+</html>

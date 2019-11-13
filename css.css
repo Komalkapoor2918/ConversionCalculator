@@ -1,0 +1,50 @@
+/*
+Komal Kapoor
+Student ID : 991539309
+SYST10199 - Web Programming
+*/
+/* 
+    Created on : 16-Jun-2019, 2:11:00 PM
+    Author     : komal
+*/
+@import url('https://fonts.googleapis.com/css?family=Charm|Great+Vibes');
+body{
+    background-color: skyblue;
+    font-family: great vibes;
+    text-align: center;
+    font-size:100%;
+}
+
+#div2
+{
+    font-size: 30px;
+    padding: 10px;
+}
+
+#button{
+    font-size: 20px;  
+    border-radius : 20px;
+}
+
+#button:hover
+{
+    font-size: 30px;
+    border-radius : 40px;
+    box-shadow: 50px;
+}
+
+#output{
+    font-size: 30px;
+    font-family: lobster;
+    color: red;
+}
+
+#clear:hover
+{
+    font-size: 30px;
+    box-shadow: 50px;
+}
+
+#clear{
+    font-size: 20px; 
+}
